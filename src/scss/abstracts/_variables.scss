@@ -1,0 +1,25 @@
+// Colors
+$primary-color: rgb(240, 239, 244);
+$secondary-color: rgb(140, 179, 105);
+$secondary-color-transparent: rgba(140, 179, 105, 0.2);
+$secondary-color-transparent-plus: rgba(140, 179, 105, 0.5);
+$secondary-color-lighter: rgb(140, 200, 105);
+$ternary-color: rgb(240, 239, 244);
+$quaternary-color: rgb(60, 60, 59);
+$quaternary-color-transparent: rgba(60, 60, 59, 0.8);
+$quaternary-color: rgba(60, 60, 59, 0.8);
+$quinary-color: rgb(255, 255, 255);
+
+// Borders
+$primary-border-radius: 0.125rem;
+
+// Shadows
+$shadow-settings: 0px 2px 5px 0px;
+$primary-shadow: $secondary-color-transparent $shadow-settings;
+$primary-shadow-transparent: $secondary-color-transparent-plus $shadow-settings;
+$primary-shadow-stronger: $secondary-color-transparent 0px 2px 50px 0px;
+$secondary-shadow: rgba(0, 0, 0, 0.2) $shadow-settings;
+$ternary-shadow: rgb(155, 155, 155) $shadow-settings;
+
+// Padding
+$primary-padding: 1rem;

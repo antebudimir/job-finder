@@ -1,0 +1,24 @@
+// Header
+#header {
+	position: relative; // shadow dependency
+	box-shadow: $primary-shadow;
+	@include flex-layout(row, nowrap);
+	@include flex-alignment(space-between, center);
+	padding: 1rem;
+
+	// centering the h1 dependency
+	&::after {
+		content: '';
+		flex: 1;
+	}
+}
+
+.icon-binoculars {
+	flex: 1; // centering the h1 dependency
+	margin-inline-end: 1rem;
+	font-size: 1.5rem;
+
+	&:before {
+		content: '\e903';
+	}
+}

@@ -1,0 +1,38 @@
+.job-container {
+	box-shadow: $primary-shadow-stronger;
+	background-color: $quinary-color;
+	padding: $primary-padding;
+	text-align: left;
+}
+
+.description-container {
+	box-shadow: $primary-shadow-transparent;
+	margin: 1rem 0;
+	padding: $primary-padding;
+}
+
+.description-title {
+	margin: 0 0 1rem;
+	font-weight: 900;
+	text-align: center;
+}
+
+.source-link {
+	border-radius: $primary-border-radius;
+	box-shadow: $ternary-shadow;
+	display: block;
+	width: 8rem;
+	margin: 1rem auto 0;
+	padding: 0.5rem 1rem;
+	background-color: $secondary-color-transparent;
+	color: $quaternary-color;
+	font-weight: 700;
+	text-align: center;
+
+	&:hover,
+	&:focus {
+		background-color: $secondary-color-transparent-plus;
+		transform: scale(1.05);
+		transition: transform 300ms;
+	}
+}

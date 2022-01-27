@@ -1,0 +1,6 @@
+#job-search {
+	@include flex-layout(column, nowrap);
+	flex: 1;
+	padding-bottom: 1rem;
+	background-color: $ternary-color;
+}

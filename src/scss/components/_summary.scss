@@ -1,0 +1,50 @@
+.summary {
+	box-shadow: $primary-shadow-transparent;
+	margin-top: 1rem;
+	padding: $primary-padding;
+
+	@include respond-to-width(768px) {
+		@include flex-column-center;
+	}
+}
+
+.summary-detail {
+	@include flex-layout(row, nowrap);
+	@include flex-alignment(initial, center);
+
+	&:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+}
+
+.icon-dollar {
+	margin-right: 0.8rem;
+
+	&:before {
+		content: '\e901';
+	}
+}
+
+.icon-anchor,
+.icon-calendar,
+.icon-pin {
+	margin-right: 1rem;
+}
+
+.icon-anchor {
+	&:before {
+		content: '\e904';
+	}
+}
+
+.icon-calendar {
+	&:before {
+		content: '\e900';
+	}
+}
+
+.icon-pin {
+	&:before {
+		content: '\e907';
+	}
+}

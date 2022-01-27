@@ -1,0 +1,12 @@
+// Footer
+#footer {
+	padding: $primary-padding;
+	background-color: $secondary-color;
+	font-weight: 900;
+	text-align: center;
+
+	& a {
+		color: $ternary-color;
+		line-height: 2;
+	}
+}

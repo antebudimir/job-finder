@@ -1,0 +1,25 @@
+#search-form {
+	padding: $primary-padding;
+	text-align: center;
+}
+
+.form-field {
+	border: none;
+	border-radius: $primary-border-radius;
+	box-shadow: $primary-shadow;
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: $primary-padding;
+	text-align: center;
+
+	&:hover,
+	&:focus {
+		outline: 1px solid $secondary-color;
+	}
+}
+
+.info-message {
+	color: rgb(255, 0, 0);
+	text-align: center;
+}

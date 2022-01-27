@@ -1,0 +1,57 @@
+// @font-faces:
+// Icons
+@font-face {
+	font-family: 'Icomoon';
+	src: url('../fonts/icomoon.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+	font-family: 'Icomoon';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+}
+
+@font-face {
+	font-family: 'Varela Round';
+	src: url('../fonts/VarelaRound-Regular.woff') format('woff');
+	font-display: swap;
+}
+
+// All fonts declared:
+html {
+	color: $quaternary-color;
+	font-family: 'Varela Round';
+	word-wrap: break-word;
+}
+
+input,
+select,
+textarea,
+button {
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 0.3rem; // align it with the binoculars icon
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+}
